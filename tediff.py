@@ -258,7 +258,7 @@ def diff_system_report(a, b):
         if spectre_changed:
             difference_system['Spectre and meltdown'] = spectre_diff
         if kernelpop_changed:
-            difference_system['Kernelpop'] = kernelpop_changed
+            difference_system['Kernelpop'] = kernelpop_diff
         return True, difference_system
 
 
